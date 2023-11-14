@@ -1,7 +1,7 @@
 import { useRef } from "react";
 //import { useState } from "react";
 import FormRow from "../../Components/FormRow";
-import icon from "../../assets/icon.png";
+import icon from "../../assets/Icon.png";
 
 const Profile = () => {
 
