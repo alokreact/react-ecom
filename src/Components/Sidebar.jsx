@@ -1,9 +1,8 @@
 import Banner from '../assets/Banner.png'
 
 const Sidebar = ()=>{
-    const tags = ["Tag 1", "Tag 2", "Tag 3", "Tag 4", "Tag 5"]; // Sample tags
+   // const tags = ["Tag 1", "Tag 2", "Tag 3", "Tag 4", "Tag 5"]; // Sample tags
    
-
     return(
         <div className="w-full p-4 bg-gray-100">
         {/* Image Section */}

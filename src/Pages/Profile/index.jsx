@@ -1,22 +1,21 @@
 import { useRef } from "react";
-import { useState } from "react";
+//import { useState } from "react";
 import FormRow from "../../Components/FormRow";
 import icon from "../../assets/icon.png";
 
 const Profile = () => {
 
-    const [avatar, setAvatar] = useState(null);
-
+    //const [avatar, setAvatar] = useState(null);
     const fileInputRef = useRef(null);
 
     const handleAvatarClick = () => {
         fileInputRef.current.click();
     };
 
-    const handleFileChange = (event) => {
-        const file = event.target.files[0];
-        // Handle the uploaded file (e.g., send it to the server, display it, etc.)
-    };
+    // const handleFileChange = (event) => {
+    //     //const file = event.target.files[0];
+    //     // Handle the uploaded file (e.g., send it to the server, display it, etc.)
+    // };
     return (
 
         <div className="container mx-auto">
