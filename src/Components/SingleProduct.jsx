@@ -3,7 +3,6 @@ import food1 from '../assets/food.png'
 //import food3 from '../assets/food3.png'
 
 const SingleProduct = () => {
-
     return (
         <div className="p-4 border border-gray-200 rounded-lg shadow-lg mb-4">            
                         

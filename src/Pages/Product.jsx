@@ -1,8 +1,8 @@
 // import { useEffect } from "react";
 // import { useDispatch } from "react-redux";
-import Breadcrumb from "../Components/BreadCrumb";
+//import Breadcrumb from "../Components/BreadCrumb";
 import Sidebar from "../Components/Sidebar";
-import SingleProduct from "../Components/Singleproduct";
+import SingleProduct from "../Components/SingleProduct";
 //import { getProducts } from "../Features/AddProduct";
 
 const Product = () => {
